@@ -7,7 +7,7 @@ private let PAM_AUTH_ERR = CInt(9)
 private let PAM_IGNORE = CInt(25)
 private let PAM_SILENT = CInt(bitPattern: 0x80000000)
 // private let DEFAULT_REASON = "提升权限"
-private let DEFAULT_REASON = "Raise Permissions"
+private let DEFAULT_REASON = "raise permissions"
 
 public typealias vchar = UnsafePointer<UnsafeMutablePointer<CChar>>
 public typealias pam_handle_t = UnsafeRawPointer?
